@@ -1,3 +1,8 @@
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return (
+    <nav>
+      <a href="/A">Page B</a>
+      <a href="/B">Page B</a>
+    </nav>
+  );
 }
